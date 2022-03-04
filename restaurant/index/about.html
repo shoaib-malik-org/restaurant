@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="https://kit.fontawesome.com/01a019cc17.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kurale&family=Merriweather&family=Roboto+Serif:wght@300;400&family=Satisfy&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+    .bg-about{
+        background-image: url("../img/slide-3.jpg");
+        
+    }
+    .bg-about::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.7);
+    }
+    .bg-col-img{
+        background-image: url("../img/about.jpg");
+        background-attachment: local !important;
+    }
+    .bg-about,.bg-col-img{
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .color-l{
+        color: #ffb03b;;
+    }
+    .btn-outline{
+        border: solid 1px #cb7152;
+        padding: 0px 30px;
+    }
+    .btn-outline:hover{
+        border: black;
+        background-color: black;
+        color: white;
+    }
+    @media (max-width:500px){
+        .home-mt{
+            margin-top: 3vh;
+        }
+    }
+    @media (min-width:992px){
+        .margin-bottom{
+            margin-bottom: 400px;
+            padding-bottom: 200px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div class="ht-lg bg-about w-100">
+        <nav class="navbar navbar-expand-lg navbar-dark position-relative" style="border-bottom: 1px solid rgb(123, 123, 123);">
+            <div class="container-fluid px-sm-5 px-1">
+                <a class="serif h1 fw-normal text-decoration-none text-white" href="index.html">Restaurant</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav center">
+                    <li class="nav-item">
+                        <a class="nav-link fw-300 text-light ms-4 ms-lg-0" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link my-act fw-300 ms-4" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-300 ms-4" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-300 ms-4" href="reserve.html">Reservation</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-300 ms-4" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-300 ms-4" href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+                    <button class="bg-none me-5 position-relative text-light cart mt-lg-0 mt-3">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="position-absolute ordered ">0</span>
+                    </button>
+                    <div class="col-3 shadow position-absolute cart-manage bg-light rounded py-3 d-none">
+                        <span class="ms-4">No product in the cart.</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <p class="text-center home-mt position-relative">
+            <img src="../img/De-logo.svg" alt="">
+        </p>
+        <h1 class="text-light display-3 roboto text-center center mt-5 position-relative">
+            Minimalism is a way of living at the maximum of your potential.
+        </h1>
+        <p class="text-center mt-5 position-relative">
+            <a href="#about">
+                <button class="bg-none text-light">
+                    <i class="fa-solid fa-arrow-down-long fa-xl"></i>
+                </button>
+            </a>
+        </p>
+    </div>
+    <section id="about"></section>
+    <div class="w-100  bg-white">
+        <div class="container pt-md pb-5 bg-white">
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-8 center">
+                    <h4 class="my-act roboto">2010</h4>
+                    <p class="sans text-dgrey">
+                        Opens Osteria Francescana, Via Stella 22 Modena Italy
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-8 center mt-md-0 mt-3">
+                    <h4 class="my-act roboto">2016</h4>
+                    <p class="text-dgrey sans">
+                        Michelin Guide One-Michelin-Star. Gambero Rosso Up and Coming Chef Award.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-8 center mt-md-0 mt-3">
+                    <h4 class="my-act roboto">2022</h4>
+                    <p class="text-dgrey sans">
+                        The world’s 50 restaurants 1st best restaurant in the world. Michelin Guidethree-michelin-stars.
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-lorange pt-md pb-5 bg-white">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-11 bg-col-img h-100">
+
+                </div>
+            </div>
+            <div class="col-md-6 py-5">
+                <h2 class="fw-normal satisfy d-inline-block" style="color: #5f5950;">
+                    Eum ipsam laborum deleniti
+                    <span class="h2 fw-bold satisfy ">velit pariatur architecto aut nihil</span>
+                </h2>
+                
+                <h6 class="text-grey fw-normal mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                </h6>
+                <h6 class="text-grey sans mt-4">
+                    <em>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </em>
+                </h6>
+                <ul class="mt-4" style="color: rgb(61, 61, 61);">
+                    <li>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </li>
+                    <li class="mt-3">
+                        Duis aute irure dolor in reprehenderit in voluptate velit.
+                    </li>
+                    <li class="mt-3">
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                    </li>
+
+                </ul>
+                
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="w-100 bg-white">
+        <div class="container pt-md pb-5">
+            <h2 class="fw-bold text-center satisfy text-dgrey">Why choose <span class="h2 color-l fw-bold"> Our Restaurant</span></h2>
+                <div class="w-50 center mt-3">
+                    <p class="sans text-dgrey text-center">Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+                </div>
+            <div class="row mt-5 mb-5 sans">
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="col-12 shadow h-100 pt-5 px-5 pb-5">
+                        <h3 class="color-l fw-bold">01</h3>
+                        <h5 class="roboto mt-3">Lorem ipsum</h5>
+                        <p class="text-dgrey">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="col-12 shadow h-100 pt-5 px-5 pb-5">
+                        <h3 class="color-l fw-bold">02</h3>
+                        <h5 class="roboto mt-3">Repelleat Nihil</h5>
+                        <p class="text-dgrey">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-10 center mt-md-3 mt-lg-0">
+                    <div class="col-12 shadow h-100 pt-5 px-5 pb-5">
+                        <h3 class="color-l fw-bold">03</h3>
+                        <h5 class="roboto mt-3">Ad ad velit qui</h5>
+                        <p class="text-dgrey">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 bg-white">
+        <div class="container pt-5 margin-bottom">
+            <div class="row">
+                <div class="col-md-8 center text-center">
+                    <h2 class="satisfy color-l">Awards</h2>
+                    <p class="text-color mt-4">In July 2006, Ramsay won the Catey award for “Independent Restaurateur of the Year”, becoming only the third person to have won three Catey awards.</p>
+                    
+                    <img src="../img/award6.jpg" class="w-100 mt-4" alt="">
+                    
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="pt-md pb-5 d-none d-lg-block position-fixed bottom-0 end-0 start-0" style="background-color:#23282f;z-index: -1;">
+        <h1 class="color text-center serif display-4">Restaurant</h1>
+        <div class="row mt-5">
+            <div class="col-lg-4 text-center">
+                <h3 class="text-light serif">About</h3>
+                <p class="text-lgrey mt-3 sans">
+                    Osteria Francescana is a restaurant owned and run by chef
+                    Massimo Bottura in Modena, Italy
+                </p>
+                <button class="btn btn-outline pb-2 rounded-pill position-relative overflow-hidden text-light py-2 px-3" id="1">
+                    Buy this Restaurant Theme
+                    
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+                <h3 class="text-light serif">Get news & offers</h3>
+                <form>
+                    <input class="text-lgrey py-2 mt-3 w-50" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;border: 2px solid rgb(168, 168, 168);background-color: #23282f;padding-left: 10px;" type="text" placeholder=" Your email">
+                    <input class="text-lgrey py-2 mt-3" style="border:2px solid #CB9252;border-top-right-radius: 20px;border-bottom-right-radius: 20px;background-color:#23282f;" type="submit" value="Subscribe">
+                </form>
+                <p class="text-grey mt-3 sans">* We never send you spam</p>
+                <div class="text-decoration-none mt-3">
+                    <a href="#" >
+                        <i class="fa-brands fa-facebook-f ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github ms-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sans mt-4 mt-lg-0">
+                <h3 class="text-light serif">Contact</h3>
+                <p class="text-lgrey mt-1 mt-lg-3">Shaheen bagh okhla</p>
+                <a href="tel:+91 8963852714" class="text-decoration-none">+91 8963852714</a>
+                <a href="mailto:someone@gmail.com" class="d-block text-decoration-none  mt-1 mt-lg-3">someone@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <footer class="pt-md pb-5 mt-5 d-lg-none " style="background-color:#23282f;z-index: -1;">
+        <h1 class="color text-center serif display-4">Restaurant</h1>
+        <div class="row mt-5 mx-5">
+            <div class="col-lg-4 text-center">
+                <h3 class="text-light serif">About</h3>
+                <p class="text-lgrey mt-3 sans">
+                    Osteria Francescana is a restaurant owned and run by chef
+                    Massimo Bottura in Modena, Italy
+                </p>
+                <button class="btn btn-outline pb-2 rounded-pill position-relative overflow-hidden text-light py-2 px-3" id="1">
+                    Buy this Restaurant Theme
+                    
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 text-center mt-5 ">
+                <h3 class="text-light serif">Get news & offers</h3>
+                <form>
+                    <input class="text-lgrey py-2 mt-3 w-50" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;border: 2px solid rgb(168, 168, 168);background-color: #23282f;padding-left: 10px;" type="text" placeholder=" Your email">
+                    <input class="text-lgrey py-2 mt-3" style="border:2px solid #CB9252;border-top-right-radius: 20px;border-bottom-right-radius: 20px;background-color:#23282f;" type="submit" value="Subscribe">
+                </form>
+                <p class="text-grey mt-3 sans">* We never send you spam</p>
+                <div class="text-decoration-none mt-3">
+                    <a href="#" >
+                        <i class="fa-brands fa-facebook-f ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github ms-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sans mt-5 mt-lg-0">
+                <h3 class="text-light serif">Contact</h3>
+                <p class="text-lgrey mt-1 mt-lg-3">Shaheen bagh okhla</p>
+                <a href="tel:+91 8963852714" class="text-decoration-none">+91 8963852714</a>
+                <a href="mailto:someone@gmail.com" class="d-block text-decoration-none  mt-1 mt-lg-3">someone@gmail.com</a>
+            </div>
+        </div>
+    </footer>   
+    <script src="../jquery.js"></script>
+    <script>
+        $( window ).resize(function() {
+            if($(window).width()<767){
+                console.log("shoaib bhaiyeee")
+                $(".bg-lorange .col-md-6").eq(0).height($(".bg-lorange .col-md-6.py-5").height())
+            }
+        })
+        if($(window).width()<767){
+            console.log("shoaib bhaiyeee")
+            $(".bg-lorange .col-md-6").eq(0).height($(".bg-lorange .col-md-6.py-5").height())
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/menu.css">
+    <script src="https://kit.fontawesome.com/01a019cc17.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kurale&family=Merriweather&family=Roboto+Serif:wght@300;400&family=Satisfy&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light">
+        <div class="container-fluid px-sm-5">
+            <a class="serif h1 fw-normal text-decoration-none text-ddark" href="index.html">Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav center">
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-300 ms-4 " aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-300 ms-4" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark my-act fw-300 ms-4" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-300 ms-4" href="reserve.html">Reservation</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-300 ms-4" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-300 ms-4" href="contact.html">Contact</a>
+                </li>
+                </ul>
+                <button class="bg-none me-5 position-relative text-grey cart mt-3 mt-lg-0">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="position-absolute ordered ">0</span>
+                </button>
+                <div class="col-3 shadow position-absolute cart-manage bg-dark rounded py-3 d-none">
+                    <span class="ms-4">No product in the cart.</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    
+    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 bg bg-brunch">
+                
+            </div>
+            <div class="col-md-6 bg-lorange">
+                <p class="text-center mt-5">
+                    <img src="../img/illustration-1.svg" alt="">
+                </p>
+                <h1 class="roboto text-ddark display-3 text-center">Brunch</h1>
+                <p class="my-act satisfy h5 text-center">~ Start at 11:00 am ~</p>
+                <div class="row mt-5 px-sm-5">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Tradition Eggs Bennedict</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹1125
+                    </div>
+                    <hr>
+                    <p class="serif text-dgrey col-11">Freshly scrambled eggs with applewood smoked bacon, tomatoes.</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Salmon Eggs Bennedict</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹375
+                    </div>
+                    <hr>
+                    <p class="serif col-11 text-dgrey">Milk, eggs, strawberries, butter, maple syrup</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Truffle Scrambled Egg</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹825
+                    </div>
+                    <hr>
+                    <p class="serif col-11 text-dgrey">Hot coffee in the company of Beautiful homemade croissants, </p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Omelette</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹1500
+                    </div>
+                    <hr>
+                    <p class="serif col-11 text-dgrey">Docon, mushroom and emmentaler cheese</p>
+                </div>
+                <p class="text-center mt-5 mt-3">❈</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 bg bg-meat">
+
+            </div>
+            <div class="col-md-6 bg-lorange">
+                <p class="text-center mt-5">
+                    <img src="../img/illustration-2.svg" alt="">
+                </p>
+                <h1 class="roboto text-ddark display-3 text-center">Main</h1>
+                <p class="my-act satisfy h5 text-center">~ Today Specials ~</p>
+                <div class="row text-center text-ddark serif mt-3 mb-3">
+                    <div class="col-4">
+                        <span class="chng pointer anime chk" id="0">Veg Pizza</span>
+                    </div>
+                    <div class="col-4 ">
+                        <span id="1" class=" pointer anime chk">Non Veg Pizza</span>
+                    </div>
+                    <div class="col-4">
+                        <span id="2" class=" pointer anime chk">Pizza Mania</span>
+                    </div>
+                    <div class="col mt-4 pb-3">
+                        <span id="3" class=" pointer anime chk">Sides & Beverages</span>
+                    </div>
+                </div>
+                <div class="all px-sm-5">
+                    <div class="row">
+                        <div class="col-9">
+                            <h6 class="sans pointer">MARGHERITA</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹199
+                        </div>
+                        <hr class="neg">
+                        <p class="text-grey col-11">
+                            A hugely popular margherita, with a deliciously tangy single cheese topping
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">DOUBLE CHEESE MARGHERITA</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹335
+                        </div>
+                        <hr>
+                        <p class="text-grey col-11">
+                            The ever-popular Margherita - loaded with extra cheese... oodies of it!
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">FARM HOUSE</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹395
+                        </div>
+                        <hr>
+                            <p class="text-grey col-11">
+                                A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes
+                            </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">PEPPY PANEER</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹395
+                        </div>
+                        <hr>
+                            <p class="text-grey col-11">
+                                Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!
+                            </p>
+                    </div>
+                    <p class="text-center mt-5 pb-3">❈</p>
+                </div>
+                <div class="all px-sm-5 d-none ">
+                    <div class="row">
+                        <div class="col-9">
+                            <h6 class="sans pointer">CHICKEN SAUSAGE</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹305
+                        </div>
+                        <hr class="neg">
+                        <p class="text-grey col-11">
+                            Chicken Sausage I Cheese
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">CHICKEN GOLDEN DELIGHT</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹450
+                        </div>
+                        <hr>
+                        <p class="text-grey col-11">
+                            Mmm! Barbeque chicken with a topping of golden corn loaded with extra cheese. Worth its weight in gold!
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">CHICKEN FIESTA</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹450
+                        </div>
+                        <hr>
+                            <p class="text-grey col-11">
+                                Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum
+                            </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">INDI CHICKEN TIKKA</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹570
+                        </div>
+                        <hr>
+                            <p class="text-grey col-11">
+                                The wholesome flavour of tandoori masala with Chicken tikka I onion I red paprika I mint mayo
+                            </p>
+                    </div>
+                    <p class="text-center mt-5 pb-3">❈</p>
+                </div>
+                <div class="all px-sm-5 d-none">
+                    
+                        <div class="row">
+                            <div class="col-9">
+                                <h6 class="sans pointer">TOMATO</h6>
+                                
+                            </div>
+                            <div class="col color">
+                                ₹59
+                            </div>
+                            <hr class="neg">
+                            <p class="text-grey col-11">
+                                Juicy tomato in a flavourful combination with cheese I tangy sauce
+                            </p>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-9">
+                                <h6 class="sans pointer">VEG LOADED</h6>
+                                
+                            </div>
+                            <div class="col color">
+                                ₹135
+                            </div>
+                            <hr>
+                            <p class="text-grey col-11">
+                                Tomato | Grilled Mushroom |Jalapeno |Golden Corn | Beans in a fresh pan crust
+                            </p>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-9">
+                                <h6 class="sans pointer">CAPSICUM</h6>
+                                
+                            </div>
+                            <div class="col color">
+                                ₹75
+                            </div>
+                            <hr>
+                                <p class="text-grey col-11">
+                                    Capsicum
+                                </p>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-9">
+                                <h6 class="sans pointer">ONION</h6>
+                                
+                            </div>
+                            <div class="col color">
+                                ₹75
+                            </div>
+                            <hr>
+                                <p class="text-grey col-11">
+                                    Onion
+                                </p>
+                        </div>
+                        <p class="text-center mt-5 pb-3">❈</p>
+                </div>
+                <div class="all px-sm-5 d-none">
+                
+                    <div class="row">
+                        <div class="col-9">
+                            <h6 class="sans pointer">GARLIC BREADSTICKS</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹99
+                        </div>
+                        <hr class="neg">
+                        <p class="text-grey col-11">
+                            The endearing tang of garlic in breadstics baked to perfection.
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">STUFFED GARLIC BREAD</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹145
+                        </div>
+                        <hr>
+                        <p class="text-grey col-11">
+                            Freshly Baked Garlic Bread stuffed with mozzarella cheese, sweet corns & tangy and spicy jalapeños
+                        </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">LAVA CAKE</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹99
+                        </div>
+                        <hr>
+                            <p class="text-grey col-11">
+                                Filled with delecious molten chocolate inside.
+                            </p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9">
+                            <h6 class="sans pointer">TACO MEXICANA VEG</h6>
+                            
+                        </div>
+                        <div class="col color">
+                            ₹118
+                        </div>
+                        <hr>
+                            <p class="text-grey col-11">
+                                A crispy flaky wrap filled with Mexican Arancini Bean Patty rolled over a creamy Harissa Sauce.
+                            </p>
+                    </div>
+                    <p class="text-center mt-5 pb-3">❈</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6 bg bg-dessert">
+                
+            </div>
+            <div class="col-md-6 bg-lorange ">
+                <p class="text-center mt-5">
+                    <img src="../img/illustration-4.svg" alt="">
+                </p>
+                <h1 class="roboto text-ddark display-3 text-center">Dessert</h1>
+                <p class="my-act satisfy h5 text-center">~ Today Specials ~</p>
+                <div class="row mt-5 px-sm-5">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Choco Lava Cake</h6>
+                        
+                        
+                    </div>
+                    <div class="col color">
+                        ₹99
+                    </div>
+                    <hr>
+                    <p class="serif text-dgrey col-11">Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Cheesy Dip</h6>
+                    </div>
+                    <div class="col color">
+                        ₹29
+                    </div>
+                    <hr class="">
+                    <p class="serif text-dgrey col-11">An all-time favorite with your Garlic Breadsticks & Stuffed Garlic Bread for a Cheesy indulgenc</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Butterscotch Mousse Cake</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹99
+                    </div>
+                    <hr>
+                        <p class="serif text-dgrey col-11">Sweet temptation! Butterscotch flavored mousse</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Brownie Fantasy</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹69
+                    </div>
+                    <hr>
+                    <p class="serif text-dgrey col-11">Sweet Temptation! Hot Chocolate Brownie drizzled with chocolate fudge sauce</p>
+                </div>
+                <p class="text-center mt-5 pb-3">❈</p>
+            </div>
+        </div>
+        
+        
+
+        <div class="row">
+            <div class="col-md-6 bg bg-drink">
+                
+            </div>
+            <div class="col-md-6 bg-lorange ">
+                <p class="text-center mt-5">
+                    <img src="../img/illustration-5.svg" alt="">
+                </p>
+                <h1 class="roboto text-ddark display-3 text-center">Drinks</h1>
+                <p class="my-act satisfy h5 text-center">~ Coffee & Tea Specials ~</p>
+                <div class="row mt-5 px-sm-5">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Caffè macchiato</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹442
+                    </div>
+                    <hr>
+                    <p class="serif text-dgrey col-11">An espresso coffee drink with a small amount of milk, usually foamed.</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Cappuccino</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹442
+                    </div>
+                    <hr>
+                    <p class="serif text-dgrey col-11">A cappuccino is an Italian coffee drink that is traditionally prepared with espresso, hot milk, and steamed milk foam.        </p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Caffe Latte</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹442
+                    </div>
+                    <hr>
+                    <p class="serif text-dgrey col-11">A Latte is a coffee drink made with espresso and steamed milk.</p>
+                </div>
+
+                <p class="text-center mt-5 pb-3">❈</p>
+            </div>
+        </div>
+        <div class="row margin-bottom">
+            <div class="col-md-6 bg bg-wine">
+                
+            </div>
+            <div class="col-md-6 bg-lorange ">
+                <p class="text-center mt-5">
+                    <img src="../img/illustration-6.svg" alt="">
+                </p>
+                <h1 class="roboto text-ddark display-3 text-center">Wine</h1>
+                <p class="my-act satisfy h5 text-center">~ Cocktails ~</p>
+                <div class="row mt-5 px-sm-5">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Campari</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹517
+                    </div>
+                    <hr>
+                        <p class="serif col-11 text-dgrey">An espresso coffee drink with a small amount of milk, usually foamed.</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Aperol Spritz</h6>
+                        
+                    </div>
+                    <div class="col color">
+                        ₹592
+                    </div>
+                    <hr>
+                        <p class="serif col-11 text-dgrey">Ice and slice of orange, prosecco, aperol, soda</p>
+                </div>
+                <div class="row px-sm-5 mt-4">
+                    <div class="col-9">
+                        <h6 class="sans pointer">Tormentoso Bush Vine Pintoage</h6>
+                        
+                        </p>
+                    </div>
+                    <div class="col color">
+                        ₹892
+                    </div>
+                    <hr>
+                        <p class="serif col-11 text-dgrey">Ruby centre with a bright rim, this wine has typical Pinotage aromas of black cherries. On the palate, you’ll ...
+                </div>
+
+
+                
+                <p class="text-center mt-5 pb-3">❈</p>
+            </div>
+        </div>
+    </div>
+    <footer class="pt-md pb-5 d-none d-lg-block position-fixed bottom-0 end-0 start-0" style="background-color:#23282f;z-index: -1;">
+        <h1 class="color text-center serif display-4">Restaurant</h1>
+        <div class="row mt-5">
+            <div class="col-lg-4 text-center">
+                <h3 class="text-light serif">About</h3>
+                <p class="text-lgrey mt-3 sans">
+                    Osteria Francescana is a restaurant owned and run by chef
+                    Massimo Bottura in Modena, Italy
+                </p>
+                <button class="btn btn-outline pb-3 rounded-pill position-relative overflow-hidden text-light py-2 px-3" id="1">
+                    <p class="ht-0">Buy this Restaurant Theme</p>
+                    <div class="ht-0 rem-anime">Buy this Restaurant Theme</div>
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+                <h3 class="text-light serif">Get news & offers</h3>
+                <form>
+                    <input class="text-lgrey py-2 mt-3 w-50" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;border: 2px solid rgb(168, 168, 168);background-color: #23282f;padding-left: 10px;" type="text" placeholder=" Your email">
+                    <input class="text-lgrey py-2 mt-3" style="border:2px solid #CB9252;border-top-right-radius: 20px;border-bottom-right-radius: 20px;background-color:#23282f;" type="submit" value="Subscribe">
+                </form>
+                <p class="text-grey mt-3 sans">* We never send you spam</p>
+                <div class="text-decoration-none mt-3">
+                    <a href="#" >
+                        <i class="fa-brands fa-facebook-f ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github ms-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sans mt-4 mt-lg-0">
+                <h3 class="text-light serif">Contact</h3>
+                <p class="text-lgrey mt-1 mt-lg-3">Shaheen bagh okhla</p>
+                <a href="tel:+91 8963852714" class="text-decoration-none">+91 8963852714</a>
+                <a href="mailto:someone@gmail.com" class="d-block text-decoration-none  mt-1 mt-lg-3">someone@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <footer class="pt-md pb-5 mt-5 d-lg-none " style="background-color:#23282f;z-index: -1;">
+        <h1 class="color text-center serif display-4">Restaurant</h1>
+        <div class="row mt-5 mx-5">
+            <div class="col-lg-4 text-center">
+                <h3 class="text-light serif">About</h3>
+                <p class="text-lgrey mt-3 sans">
+                    Osteria Francescana is a restaurant owned and run by chef
+                    Massimo Bottura in Modena, Italy
+                </p>
+                <button class="btn btn-outline pb-2 rounded-pill position-relative overflow-hidden text-light py-2 px-3" id="1">
+                    Buy this Restaurant Theme
+                    
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 text-center mt-5 ">
+                <h3 class="text-light serif">Get news & offers</h3>
+                <form>
+                    <input class="text-lgrey py-2 mt-3 w-50" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;border: 2px solid rgb(168, 168, 168);background-color: #23282f;padding-left: 10px;" type="text" placeholder=" Your email">
+                    <input class="text-lgrey py-2 mt-3" style="border:2px solid #CB9252;border-top-right-radius: 20px;border-bottom-right-radius: 20px;background-color:#23282f;" type="submit" value="Subscribe">
+                </form>
+                <p class="text-grey mt-3 sans">* We never send you spam</p>
+                <div class="text-decoration-none mt-3">
+                    <a href="#" >
+                        <i class="fa-brands fa-facebook-f ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github ms-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sans mt-5 mt-lg-0">
+                <h3 class="text-light serif">Contact</h3>
+                <p class="text-lgrey mt-1 mt-lg-3">Shaheen bagh okhla</p>
+                <a href="tel:+91 8963852714" class="text-decoration-none">+91 8963852714</a>
+                <a href="mailto:someone@gmail.com" class="d-block text-decoration-none  mt-1 mt-lg-3">someone@gmail.com</a>
+            </div>
+        </div>
+    </footer>   
+    <script src="../jquery.js"></script>
+    
+    <script src="../js/menu.js"></script>
+</body>
+</html>

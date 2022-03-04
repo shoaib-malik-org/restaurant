@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <!-- <link rel="stylesheet" href="../bootstrap-5/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/shop.css">
+    <script src="https://kit.fontawesome.com/01a019cc17.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kurale&family=Merriweather&family=Roboto+Serif:wght@300;400&family=Satisfy&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="w-100 ht-md-px bg-shop">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="border-bottom: 1px solid rgb(123, 123, 123);">
+            <div class="container-fluid px-lg-5">
+                <a class="serif h1 fw-normal text-decoration-none text-light" href="index.html">Restaurant</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav center">
+                    <li class="nav-item">
+                        <a class="ms-4 nav-link fw-300 text-light" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-300 ms-4" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-300 ms-4" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-300 text-light ms-4" href="reserve.html">Reservation</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link text-light my-act fw-300 ms-4" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light fw-300 ms-4" href="contact.html">Contact</a>
+                    </li>
+                    </ul>
+                    <button class="bg-none me-5 position-relative text-light cart mt-3 mt-lg-0">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span class="position-absolute ordered ">0</span>
+                    </button>
+                    <div class="col-3 shadow position-absolute cart-manage bg-light rounded py-3 d-none">
+                        <span class="ms-4">No product in the cart.</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="col text-center position-relative">
+            <h2 class="roboto display-3 text-light mt-lg">shop</h2>
+            <hr class="center mt-4 hr">
+            <p class="text-lgrey mt-4">Pure natural food</p>
+        </div>
+    </div>
+    <div class="w-100 bg-white position-relative pt-5 pb-5">
+        <div class="container-fluid text-center">
+            <div class="row">
+                <div class="w-auto col-sm-auto center-sm left">
+                    <span class=" h3 roboto chng pointer anime chk" id="0">All</span>
+                    <span class="ms-5 h3 roboto text-ddark pointer anime chk" id="1">Main</span>
+                    <span class="ms-5 h3 roboto text-ddark pointer anime chk" id="2">Deserts</span>
+                </div>
+                <div class="w-auto col-sm-auto center-sm right mt-3 mt-sm-0">
+                    <span class="ms-md-5 h3 roboto text-ddark pointer anime " >Example1</span>
+                    <span class="ms-md-5 ms-3 h3 roboto text-ddark pointer anime " >Example2</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid position-relative bg-white mb-5  contain ">
+        <div class="row text-center" id="0">
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="0">
+                    <div class="position-relative">
+                        <img src="../img/shop/veg2.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">Margherita</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="1">
+                    <div class="position-relative">
+                        <img src="../img/shop/Peppy_Paneer.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+                    <h4 class="roboto ">PEPPY PANEER</h4>
+                    <h3 class="roboto ">$60</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="2">
+                    <div class="position-relative">
+                        <img src="../img/shop/vegP1.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum.</p>
+                    <h4 class="roboto ">DELUXE VEGGIE</h4>
+                    <h3 class="roboto ">$70</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="3">
+                    <div class="position-relative">
+                        <img src="../img/shop/veg3.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">MEXICAN GREEN WAVE</h4>
+                    <h3 class="roboto ">$10</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mt-3">
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="4">
+                    <div class="position-relative">
+                        <img src="../img/shop/veg.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">Non veg</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="5">
+                    <div class="position-relative">
+                        <img src="../img/shop/vegP2.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+                    <h4 class="roboto ">DOUBLE MARGHERITA</h4>
+                    <h3 class="roboto ">$60</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="6">
+                    <div class="position-relative">
+                        <img src="../img/shop/non.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum.</p>
+                    <h4 class="roboto ">INDI CHICKEN TIKKA</h4>
+                    <h3 class="roboto ">$70</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="7">
+                    <div class="position-relative">
+                        <img src="../img/shop/nonv1.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">CHICKEN DOMINATOR</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mt-3" >
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="8">
+                    <div class="position-relative">
+                        <img src="../img/shop/nonv2.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">VEG EXTRAVAGANZA</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="9">
+                    <div class="position-relative">
+                        <img src="../img/shop/deser1.png" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey mt-5" style="font-size: 12px;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+                    <h4 class="roboto ">BROWNIE FANTASY</h4>
+                    <h3 class="roboto ">$60</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="10">
+                    <div class="position-relative">
+                        <img src="../img/shop/desert.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum.</p>
+                    <h4 class="roboto ">BUTTERSCOTCH MOUSSE CAKE</h4>
+                    <h3 class="roboto ">$70</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="11">
+                    <div class="position-relative">
+                        <img src="../img/shop/desert2.jpg" class="h-100 w-100" alt="" >
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey mt-5" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">LAVA CAKE</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mt-3 pb-5 margin-bottom" >
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="12">
+                    <div class="position-relative">
+                        <img src="../img/shop/garlic-bread.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey mt-5" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto  ">GARLIC BREADSTICKS</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="13">
+                    <div class="position-relative">
+                        <img src="../img/shop/stuffed-garlic-breadstick_1346070564.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey mt-5" style="font-size: 12px;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+                    <h4 class="roboto ">STUFFED GARLIC BREAD</h4>
+                    <h3 class="roboto ">$60</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="14">
+                    <div class="position-relative">
+                        <img src="../img/shop/Paneer_Makhni.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum.</p>
+                    <h4 class="roboto ">PANEER MAKHANI</h4>
+                    <h3 class="roboto ">$70</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="15">
+                    <div class="position-relative">
+                        <img src="../img/shop/Pepper_Barbeque.jpg" class="h-100 w-100" alt="" >
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey mt-5" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">NON VEG SUPREME</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid position-relative bg-white mb-5 d-none contain ">
+        <div class="row text-center margin-bottom">
+            <div class="col-sm-8 centercol-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="16">
+                    <div class="position-relative">
+                        <img src="../img/shop/veg2.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">Margherita</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="17">
+                    <div class="position-relative">
+                        <img src="../img/shop/Peppy_Paneer.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+                    <h4 class="roboto ">PEPPY PANEER</h4>
+                    <h3 class="roboto ">$60</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="18">
+                    <div class="position-relative">
+                        <img src="../img/shop/vegP1.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum.</p>
+                    <h4 class="roboto ">DELUXE VEGGIE</h4>
+                    <h3 class="roboto ">$70</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="19">
+                    <div class="position-relative">
+                        <img src="../img/shop/veg3.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">MEXICAN GREEN WAVE</h4>
+                    <h3 class="roboto ">$10</h3>
+                </div>
+            </div>
+        
+        
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="20">
+                    <div class="position-relative">
+                        <img src="../img/shop/vegP1.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">Margherita</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="21">
+                    <div class="position-relative">
+                        <img src="../img/shop/vegP2.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+                    <h4 class="roboto ">DOUBLE MARGHERITA</h4>
+                    <h3 class="roboto ">$60</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="22">
+                    <div class="position-relative">
+                        <img src="../img/shop/non.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum.</p>
+                    <h4 class="roboto ">DELUXE VEGGIE</h4>
+                    <h3 class="roboto ">$70</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="23">
+                    <div class="position-relative">
+                        <img src="../img/shop/non2.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">MEXICAN GREEN WAVE</h4>
+                    <h3 class="roboto ">$10</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid position-relative bg-white  d-none contain ">
+        <div class="row text-center pb-5 margin-bottom">
+            <div class="col-md-4 col-lg-3">
+                <div class="col-12 h-100 border rounded-3 " id="24">
+                    <div class="position-relative">
+                        <img src="../img/shop/deser1.png" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <p class="text-grey mt-5" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">BROWNIE FANTASY</h4>
+                    <h3 class="roboto ">$40</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="25">
+                    <div class="position-relative">
+                        <img src="../img/shop/desert.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey" style="font-size: 12px;">Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!</p>
+                    <h4 class="roboto ">BUTTERSCOTCH MOUSSE CAKE</h4>
+                    <h3 class="roboto ">$60</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="26">
+                    <div class="position-relative">
+                        <img src="../img/shop/desert2.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey mt-5" style="font-size: 12px;">For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum.</p>
+                    <h4 class="roboto ">LAVA CAKE</h4>
+                    <h3 class="roboto ">$70</h3>
+                </div>
+            </div>
+            <div class="col-sm-8 center col-md-4 col-lg-3 mt-2">
+                <div class="col-12 h-100 border rounded-3 " id="27">
+                    <div class="position-relative">
+                        <img src="../img/shop/garlic-bread.jpg" class="h-75 w-100" alt="">
+                        <button class="btn btn-dark position-absolute btn-manage w-50 d-none">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <p class="text-grey mt-5" style="font-size: 12px;">A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                    <h4 class="roboto ">GARLIC BREADSTICKS</h4>
+                    <h3 class="roboto ">$10</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="pt-md pb-5 d-none d-lg-block position-fixed bottom-0 end-0 start-0" style="background-color:#23282f;z-index: -1;">
+        <h1 class="color text-center serif display-4">Restaurant</h1>
+        <div class="row mt-5">
+            <div class="col-lg-4 text-center">
+                <h3 class="text-light serif">About</h3>
+                <p class="text-lgrey mt-3 sans">
+                    Osteria Francescana is a restaurant owned and run by chef
+                    Massimo Bottura in Modena, Italy
+                </p>
+                <button class="btn btn-outline pb-3 rounded-pill position-relative overflow-hidden text-light py-2 px-3" id="1">
+                    <p class="ht-0">Buy this Restaurant Theme</p>
+                    <div class="ht-0 rem-anime">Buy this Restaurant Theme</div>
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 text-center mt-4 mt-lg-0">
+                <h3 class="text-light serif">Get news & offers</h3>
+                <form>
+                    <input class="text-lgrey py-2 mt-3 w-50" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;border: 2px solid rgb(168, 168, 168);background-color: #23282f;padding-left: 10px;" type="text" placeholder=" Your email">
+                    <input class="text-lgrey py-2 mt-3" style="border:2px solid #CB9252;border-top-right-radius: 20px;border-bottom-right-radius: 20px;background-color:#23282f;" type="submit" value="Subscribe">
+                </form>
+                <p class="text-grey mt-3 sans">* We never send you spam</p>
+                <div class="text-decoration-none mt-3">
+                    <a href="#" >
+                        <i class="fa-brands fa-facebook-f ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github ms-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sans mt-4 mt-lg-0">
+                <h3 class="text-light serif">Contact</h3>
+                <p class="text-lgrey mt-1 mt-lg-3">Shaheen bagh okhla</p>
+                <a href="tel:+91 8963852714" class="text-decoration-none">+91 8963852714</a>
+                <a href="mailto:someone@gmail.com" class="d-block text-decoration-none  mt-1 mt-lg-3">someone@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+    <footer class="pt-md pb-5 mt-5 d-lg-none " style="background-color:#23282f;z-index: -1;">
+        <h1 class="color text-center serif display-4">Restaurant</h1>
+        <div class="row mt-5 mx-5">
+            <div class="col-lg-4 text-center">
+                <h3 class="text-light serif">About</h3>
+                <p class="text-lgrey mt-3 sans">
+                    Osteria Francescana is a restaurant owned and run by chef
+                    Massimo Bottura in Modena, Italy
+                </p>
+                <button class="btn btn-outline pb-2 rounded-pill position-relative overflow-hidden text-light py-2 px-3" id="1">
+                    Buy this Restaurant Theme
+                    
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 text-center mt-5 ">
+                <h3 class="text-light serif">Get news & offers</h3>
+                <form>
+                    <input class="text-lgrey py-2 mt-3 w-50" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;border: 2px solid rgb(168, 168, 168);background-color: #23282f;padding-left: 10px;" type="text" placeholder=" Your email">
+                    <input class="text-lgrey py-2 mt-3" style="border:2px solid #CB9252;border-top-right-radius: 20px;border-bottom-right-radius: 20px;background-color:#23282f;" type="submit" value="Subscribe">
+                </form>
+                <p class="text-grey mt-3 sans">* We never send you spam</p>
+                <div class="text-decoration-none mt-3">
+                    <a href="#" >
+                        <i class="fa-brands fa-facebook-f ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-pinterest ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram ms-3"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-github ms-3"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center sans mt-5 mt-lg-0">
+                <h3 class="text-light serif">Contact</h3>
+                <p class="text-lgrey mt-1 mt-lg-3">Shaheen bagh okhla</p>
+                <a href="tel:+91 8963852714" class="text-decoration-none">+91 8963852714</a>
+                <a href="mailto:someone@gmail.com" class="d-block text-decoration-none  mt-1 mt-lg-3">someone@gmail.com</a>
+            </div>
+        </div>
+    </footer>   
+    <script src="../jquery.js"></script>
+    <script src="../js/shop.js"></script>
+</body>
+</html>

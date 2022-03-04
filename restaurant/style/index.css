@@ -1,0 +1,118 @@
+a{
+    color: white;
+}
+a:hover{
+    color: #cb7152 !important;
+}
+nav{
+    z-index: 10;
+}
+
+hr{
+    border-top: 1px dotted;
+    height: 100px;
+    margin: 10px 0;
+    width: 85% !important;
+    margin-left: 15px;
+    
+}
+.carousel{
+    z-index: 11;
+}
+
+.bg-img{
+    background-image: url('../img/home5.jpg');
+    
+}
+.bg-testimonial{
+    background-image: url('../img/testimonials-bg.jpg');
+}
+.bg-img,.bg-testimonial{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-testimonial::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12,11,10,.7);
+}
+.shed::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(12,11,10,.2);
+}
+.active{
+    background-color: #cb7152 !important;
+}
+.bg-color-none{
+    background: none !important;
+}
+
+.ordered{
+    top: -10px;
+    border: solid 1px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    font-size: 15px;
+}
+
+.cart-manage{
+    top: 70px;
+    right: 100px;
+    z-index: 1;
+}
+.btn-outline{
+    border: solid 1px #cb7152;
+    padding: 0px 30px;
+}
+
+.animation-p{
+    transform: translateY(-30px);
+    transition: .5s;
+}
+.rem-anime{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #cb7152;
+    height: 200px;
+    padding-top: 14px;
+    color: white;
+    transform: translateY(30px);
+    transition: .8s;
+}
+.animation-div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #cb7152;
+    height: 200px;
+    padding-top: 14px;
+    color: white;
+    transform: translateY(-30px);
+    transition: .5s;
+}
+.b-r-t{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.b-r-b{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+@media (min-width:992px){
+    .margin-bottom{
+        margin-bottom: 400px;
+        padding-bottom: 200px;
+    }
+}

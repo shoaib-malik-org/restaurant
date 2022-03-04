@@ -1,0 +1,108 @@
+p{
+    font-size: 12px;
+}
+hr{
+    height: 100px;
+    margin: 10px 0;
+    width: 85% !important;
+    margin-left: 15px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #cb7152 !important;
+}
+.ordered{
+    top: -10px;
+    border: solid 1px;
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    font-size: 15px;
+}
+.cart-manage{
+    top: 70px;
+    right: 100px;
+    z-index: 1;
+}
+.anime:hover{
+    color: #CB9252;
+    /* padding-bottom: 5px; */
+    border-bottom:solid 3px  #cb7152 ;
+    transition: .2s;
+}
+.chng{
+    color: #CB9252;
+    border-bottom: 3px #cb7152 solid;
+    transition: .2s;
+}
+.bg-lorange{
+    background-color:rgb(245, 243, 240)
+}
+.bg-brunch{
+    background-image: url('../img/brunch-big.jpg');
+}
+.bg-meat{
+    background-image: url('../img/Meat.jpg');
+}
+.bg-dessert{
+    background-image: url('../img/Desserts.jpg');
+}
+.bg-drink{
+    background-image: url("../img/drink.jpg");
+}
+.bg-wine{
+    background-image: url("../img/brunch-big4.jpg");
+}
+.bg-dessert,.bg-brunch,.bg-meat,.bg-drink,.bg-wine{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+@media (max-width:768px){
+    .bg-dessert,.bg-brunch,.bg-meat,.bg-drink,.bg-wine{
+        background-attachment:local;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+}
+@media (min-width:992px){
+    .margin-bottom{
+        margin-bottom: 400px;
+        padding-bottom: 200px;
+    }
+}
+.color{
+    color: #CB9252;
+}
+.btn-outline{
+    border: solid 1px #cb7152;
+    padding: 0px 30px;
+}
+.rem-anime{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #cb7152;
+    height: 200px;
+    padding-top: 14px;
+    color: white;
+    transform: translateY(30px);
+    transition: .8s;
+}
+.animation-div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #cb7152;
+    height: 200px;
+    padding-top: 14px;
+    color: white;
+    transform: translateY(-30px);
+    transition: .5s;
+}
+.animation-p{
+    transform: translateY(-30px);
+    transition: .5s;
+}
